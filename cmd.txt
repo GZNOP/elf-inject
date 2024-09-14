@@ -1,0 +1,4 @@
+For the entrypoint injection : 
+$ cp backup/date date && ./isos-inject -b 1 -a 0x40000 -s .too.easy -i ./bin/injected-code-ep -f date
+For the gotplt injection :
+$ cp backup/date date && ./isos-inject -b 0 -a 0x40000 -s .foobar -i ./bin/injected-code-got -f date -d getenv
