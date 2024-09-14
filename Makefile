@@ -11,7 +11,7 @@ OBJ_DIR=obj/
 OBJ_FILES=$(OBJ_DIR)argparser.o $(OBJ_DIR)isos_inject.o $(OBJ_DIR)verifbin.o $(OBJ_DIR)elf_edit.o
 
 ASM=nasm
-CC=gcc-13
+CC=gcc
 CFLAGS=-g -fPIE -O2 -Warray-bounds -Wsequence-point -Walloc-zero -Wnull-dereference \
 -Wpointer-arith -Wcast-qual -Wcast-align=strict -I$(INCLUDE_DIR)
 LDFLAGS=-Wl,--strip-all

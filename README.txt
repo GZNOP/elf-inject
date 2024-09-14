@@ -1,4 +1,10 @@
 
+Dependencies : 
+
+	- nasm
+	- libbfd
+	- gcc >= 13
+
 To compile the program : 
 
 make clean && make

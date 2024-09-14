@@ -1,0 +1,5 @@
+isos_inject.o: src/isos_inject.c include/argparser.h include/elf_edit.h \
+ include/verifbin.h
+argparser.o: src/argparser.c include/argparser.h
+verifbin.o: src/verifbin.c include/verifbin.h
+elf_edit.o: src/elf_edit.c include/elf_edit.h
